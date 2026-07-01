@@ -9,7 +9,7 @@ import sharkie4 from "../../../assets/images/projects/sharkie/sharkie-4.webp";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "Sharkie",
+  title: "Modulo 2",
   theme: "light",
   tags: ["javascript", "html", "css"],
   live: "https://sharkie.david-hckh.com/",

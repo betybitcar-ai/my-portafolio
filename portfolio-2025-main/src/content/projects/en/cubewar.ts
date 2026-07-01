@@ -10,13 +10,14 @@ import cubewar5 from "../../../assets/images/projects/cubewar/cubewar-5.webp";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "CubeWar",
+  title: "Modulo 1",
   theme: "dark",
   tags: ["three", "node", "websockets", "redis"],
   videoBorder: false,
   live: "https://cubewar.io",
   description:
-    "CubeWar is a browser-based multiplayer game where players control cube avatars in fast-paced strategic battles.<br/><br/>I built the full stack myself, including the game engine, the client-side timeline system, and real-time networking with Redis-based matchmaking for smooth, high-concurrency gameplay.",
+  "In the first module there are the following activities: Personal Introduction, Initial Reflection, Oral Introductions, Picture Analysis, Portfolio Link.",
+  
   components: [
     {
       type: "media",
