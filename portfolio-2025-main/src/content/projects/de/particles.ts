@@ -1,4 +1,3 @@
-import videoParticles from "../../../assets/videos/particles.mp4";
 
 import particles0 from "../../../assets/images/projects/particles/particles-0.webp";
 import particles1 from "../../../assets/images/projects/particles/particles-1.webp";
@@ -15,14 +14,6 @@ export default {
   description:
     "Ein experimentelles WebGL-Projekt mit OGL.js, das Partikel mithilfe mathematischer Formeln und Noise-Funktionen animiert.<br/><br/>Die Partikel bewegen sich fließend zwischen verschiedenen 3D-Formen, die ineinander übergehen.",
   components: [
-    {
-      type: "media",
-      props: {
-        type: "video",
-        src: videoParticles,
-        caption: "Animiertes Partikelsystem",
-      },
-    },
     {
       type: "media",
       props: {

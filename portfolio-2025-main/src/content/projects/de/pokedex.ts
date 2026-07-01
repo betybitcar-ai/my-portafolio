@@ -1,4 +1,3 @@
-import videoPokedex from "../../../assets/videos/pokedex.mp4";
 
 import pokedex0 from "../../../assets/images/projects/pokedex/pokedex-0.webp";
 import pokedex1 from "../../../assets/images/projects/pokedex/pokedex-1.webp";
@@ -17,14 +16,6 @@ export default {
   description:
     "Eines meiner ersten Webprojekte, um Kernkonzepte der Webentwicklung zu üben. Der Pokédex ist Open Source, damit andere Entwickler auf dieselbe Weise lernen können wie ich.<br/><br/>Er interagiert außerdem mit einer öffentlichen API, um zusätzliche Erfahrung zu sammeln.",
   components: [
-    {
-      type: "media",
-      props: {
-        type: "video",
-        src: videoPokedex,
-        caption: "Pokédex Anwendung",
-      },
-    },
     {
       type: "media",
       props: {

@@ -1,4 +1,3 @@
-import videoSharkie from "../../../assets/videos/sharkie.mp4";
 
 import sharkie0 from "../../../assets/images/projects/sharkie/sharkie-0.webp";
 import sharkie1 from "../../../assets/images/projects/sharkie/sharkie-1.webp";
@@ -17,14 +16,6 @@ export default {
   description:
     "Sharkie ist ein 2D-Unterwasser-Abenteuerspiel, entwickelt mit Vanilla JavaScript und HTML5 Canvas.<br/><br/>Das Projekt basiert auf objektorientierten Programmierprinzipien und nutzt eigene Klassen für Spielfiguren, Gegner und Spielsysteme, ergänzt durch flüssige Animationen, Kampfsysteme und mehrschichtige Parallax-Hintergründe.",
   components: [
-    {
-      type: "media",
-      props: {
-        type: "video",
-        src: videoSharkie,
-        caption: "Gameplay",
-      },
-    },
     {
       type: "media",
       props: {

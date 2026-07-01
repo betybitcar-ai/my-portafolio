@@ -1,6 +1,4 @@
-import videoCubeWar from "../../../assets/videos/cubewar.mp4";
-
-import cubewar0 from "../../../assets/images/projects/cubewar/cubewar-0.webp";
+// import cubewar0 from "../../../assets/images/projects/cubewar/cubewar-0.webp";
 import cubewar1 from "../../../assets/images/projects/cubewar/cubewar-1.webp";
 import cubewar2 from "../../../assets/images/projects/cubewar/cubewar-2.webp";
 import cubewar3 from "../../../assets/images/projects/cubewar/cubewar-3.webp";
@@ -22,16 +20,8 @@ export default {
     {
       type: "media",
       props: {
-        type: "video",
-        src: videoCubeWar,
-        caption: "Gameplay",
-      },
-    },
-    {
-      type: "media",
-      props: {
         type: "image",
-        src: cubewar0,
+      src: "",
         alt: "Tutorial",
         caption: "Tutorial",
       },

@@ -1,4 +1,3 @@
-import videoQuibbo from "../../../assets/videos/quibbo.mp4";
 
 import quibbo0 from "../../../assets/images/projects/quibbo/quibbo-0.webp";
 import quibbo1 from "../../../assets/images/projects/quibbo/quibbo-1.webp";
@@ -17,14 +16,6 @@ export default {
   description:
     "Quibbo ist eine Plattform für schnelle, rundenbasierte Multiplayer-Spiele. Sie verbindet Matchmaking, anpassbare 3D-Avatare und Account-Integration mit einem Rangsystem auf ELO-Basis.<br/><br/>Das Projekt begann als technisches Experiment und entwickelte sich zu einem skalierbaren System, um neue Spielideen auszuprobieren.",
   components: [
-    {
-      type: "media",
-      props: {
-        type: "video",
-        src: videoQuibbo,
-        caption: "Benutzeroberfläche",
-      },
-    },
     {
       type: "media",
       props: {

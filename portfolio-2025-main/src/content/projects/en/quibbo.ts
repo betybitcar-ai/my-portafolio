@@ -1,4 +1,3 @@
-import videoQuibbo from "../../../assets/videos/quibbo.mp4";
 import quibbo0 from "../../../assets/images/projects/quibbo/quibbo-0.webp";
 import quibbo1 from "../../../assets/images/projects/quibbo/quibbo-1.webp";
 import quibbo2 from "../../../assets/images/projects/quibbo/quibbo-2.webp";
@@ -16,14 +15,6 @@ export default {
   description:
     "This is my digital resume.<br/><br/>The project started as a technical experiment and grew into a scalable system for testing new game ideas.",
   components: [
-    {
-      type: "media",
-      props: {
-        type: "video",
-        src: videoQuibbo,
-        caption: "User Experience",
-      },
-    },
     {
       type: "media",
       props: {

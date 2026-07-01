@@ -1,4 +1,3 @@
-import videoPokedex from "../../../assets/videos/pokedex.mp4";
 
 import pokedex0 from "../../../assets/images/projects/pokedex/pokedex-0.webp";
 import pokedex1 from "../../../assets/images/projects/pokedex/pokedex-1.webp";
@@ -17,14 +16,6 @@ export default {
   description:
     "One of my first web projects to practice basic web development concepts. The Pokédex is open source so other developers can learn the same way I did.<br/><br/>It also interacts with a public API, to get more experience with asynchronous data fetching.",
   components: [
-    {
-      type: "media",
-      props: {
-        type: "video",
-        src: videoPokedex,
-        caption: "Pokédex App",
-      },
-    },
     {
       type: "media",
       props: {
