@@ -8,7 +8,7 @@ export default {
   tags: ["three", "node", "kubernetes", "redis", "postgresql"],
   videoBorder: true,
   description:
-    "This is my digital resume.<br/><br/>The project started as a technical experiment and grew into a scalable application.",
+    "This is my digital resume.<br/><br/>Putting together my resume made me reflect on everything I’ve done so far this year; I have a job, and even though it might not seem like much, it motivates me to keep moving forward.",
   components: [
     {
       type: "media",
