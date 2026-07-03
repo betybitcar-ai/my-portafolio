@@ -1,11 +1,6 @@
 import videoQuibbo from "../../../assets/videos/quibbo.mp4";
 
 import quibbo0 from "../../../assets/images/projects/quibbo/quibbo-0.webp";
-import quibbo1 from "../../../assets/images/projects/quibbo/quibbo-1.webp";
-import quibbo2 from "../../../assets/images/projects/quibbo/quibbo-2.webp";
-import quibbo3 from "../../../assets/images/projects/quibbo/quibbo-3.webp";
-import quibbo4 from "../../../assets/images/projects/quibbo/quibbo-4.webp";
-import quibbo5 from "../../../assets/images/projects/quibbo/quibbo-5.webp";
 
 import type { ProjectContent } from "../../types";
 
@@ -20,7 +15,7 @@ export default {
     {
       type: "media",
       props: {
-        type: "video",
+        type: "video"
         src: videoQuibbo,
         caption: "Benutzeroberfläche",
       },
@@ -35,49 +30,6 @@ export default {
       },
     },
     {
-      type: "media",
-      props: {
-        type: "image",
-        src: quibbo1,
-        alt: "Mehrspieler Tic-Tac-Toe",
-        caption: "Mehrspieler Tic-Tac-Toe",
-      },
-    },
-    {
-      type: "media",
-      props: {
-        type: "image",
-        src: quibbo2,
-        alt: "Verschiedene Minispiele",
-        caption: "Verschiedene Minispiele",
-      },
-    },
-    {
-      type: "media",
-      props: {
-        type: "image",
-        src: quibbo3,
-        alt: "Avatar Variationen",
-        caption: "Avatar Variationen",
-      },
-    },
-    {
-      type: "media",
-      props: {
-        type: "image",
-        src: quibbo4,
-        alt: "Responsives Design",
-        caption: "Responsives Design",
-      },
-    },
-    {
-      type: "media",
-      props: {
-        type: "image",
-        src: quibbo5,
-        alt: "Dunkles Design",
-        caption: "Dunkles Design",
-      },
-    },
-  ],
-} as const satisfies ProjectContent;
+    git add .
+git commit -m "Actualización del portafolio"
+git push

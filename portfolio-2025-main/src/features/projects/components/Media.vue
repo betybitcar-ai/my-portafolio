@@ -154,17 +154,17 @@ onMounted(async () => {
     }
   }
 
-  &-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+ &-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 
-  &-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+&-video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 
   &-content {
     overflow: hidden;
