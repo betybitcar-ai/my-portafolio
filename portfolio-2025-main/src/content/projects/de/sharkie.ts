@@ -1,4 +1,3 @@
-
 import sharkie0 from "../../../assets/images/projects/sharkie/sharkie-0.webp";
 import sharkie1 from "../../../assets/images/projects/sharkie/sharkie-1.webp";
 import sharkie2 from "../../../assets/images/projects/sharkie/sharkie-2.webp";

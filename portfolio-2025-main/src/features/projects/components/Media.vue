@@ -13,6 +13,7 @@ export interface Props {
   src: string;
   alt?: string;
   caption?: string;
+  portrait?: boolean;
   index: number;
 }
 
@@ -21,6 +22,7 @@ const props = defineProps<Props>();
 const wrapperClasses = computed(() => {
   return {
     "project-media": true,
+    "project-media-portrait": props.portrait,
   };
 });
 
@@ -102,6 +104,11 @@ onMounted(async () => {
 
   @include mixins.mq("lg") {
     grid-column: 3 / 11;
+  }
+
+  &-portrait {
+    aspect-ratio: 3 / 4;
+    max-width: 560px;
   }
 
   &-caption {
